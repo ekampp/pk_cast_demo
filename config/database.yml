@@ -9,3 +9,7 @@ default: &default
 development:
   <<: *default
   database: pk_cast_demo
+
+test:
+  <<: *default
+  database: pk_cast_demo_test
